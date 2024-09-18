@@ -1,0 +1,51 @@
+.movie-img {
+  height: 100%;
+  width: 100%;
+}
+
+.MovieItem-container {
+  margin: 5px;
+}
+
+.popup-content {
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.video-container {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  align-self: flex-end;
+  margin-bottom: 8px;
+}
+
+.popup-content {
+  height: 85%;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .movie-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .popup-content {
+    width: 90%;
+    height: 70%;
+  }
+
+  .video-container {
+    height: 100%;
+    width: 100%;
+  }
+}
